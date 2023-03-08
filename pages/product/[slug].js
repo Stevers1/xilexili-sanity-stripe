@@ -29,11 +29,6 @@ function ProductDetails({ product, products, bannerData }) {
           <div className="image-container">
             <img src={urlFor(image && image[0])} />
           </div>
-          {/* <div className="small-images-container">
-            {image?.map((item, index) => {
-              return <img src={urlFor(item)} className="" onMouseEnter="" />;
-            })}
-          </div> */}
         </div>
         <div className="product-detail-desc">
           <h1>{name}</h1>
